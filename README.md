@@ -1,2 +1,2 @@
 # congandmargi_website
-Website for congandmargi.com
+Wedding Website for congandmargi.com
