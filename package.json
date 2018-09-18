@@ -3,6 +3,9 @@
     "name": "startbootstrap-scrolling-nav",
     "version": "4.1.1",
     "description": "A smooth scrolling navigation HTML template built with Bootstrap",
+    "scripts": {
+      "sass:compile": "node-sass --include-path sass css/cong-and-margi.scss css/cong-and-margi.css"
+    },
     "keywords": [
         "css",
         "sass",
@@ -32,6 +35,7 @@
     },
     "devDependencies": {
         "browser-sync": "2.24.5",
-        "gulp": "^3.9.1"
+        "gulp": "^3.9.1",
+        "node-sass": "^4.9.3"
     }
 }

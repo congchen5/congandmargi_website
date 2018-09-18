@@ -1,0 +1,104 @@
+
+@font-face {
+  font-family: 'Autumn in November';
+  src: url('autumn-in-november.eot');
+  src: url('autumn-in-november.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+$light-pink: #fff0f2;
+$light-green: #ceffce;
+
+.bg-pink {
+  background-color: $light-pink;
+}
+
+.bg-green {
+  background-color: $light-green;
+}
+
+.cong-and-margi {
+  h1, h2, h3, h4, h5 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+  }
+  #mainNav {
+    background-color: #fff;
+    .navbar-nav {
+      margin: 0 auto;
+      .nav-item {
+        margin: 0 10px;
+        .nav-link.active {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .header {
+    .header-text {
+      position: absolute;
+      width: 600px;
+      top: 86px;
+      left: calc(50vw - 300px);
+      color: #fff;
+      h1 {
+        font-size: 64px;
+      }
+      h3 {
+        color: $light-pink;
+      }
+    }
+    .header-img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+  #details {
+    padding: 0;
+    > .row {
+      margin: 0;
+    }
+    hr {
+      width: 50%;
+      border-top: dotted 1px #777;
+    }
+    .content {
+      margin: 150px 0;
+      .schedule {
+        .time {
+          text-align: right;
+        }
+        .event {
+
+        }
+      }
+    }
+    .nestldown-img {
+      margin-left: -15px;
+      width: 100vw;
+      object-fit: cover;
+    }
+  }
+  #faq {
+    .q-and-a {
+      margin: 20px 0;
+
+      .question {
+        font-weight: bold;
+      }
+      .answer {
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .cong-and-margi {
+    #details {
+      .nestldown-img {
+        width: 50vw;
+        height: 100%;
+      }
+    }
+  }
+}

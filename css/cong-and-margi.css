@@ -1,21 +1,65 @@
+@font-face {
+  font-family: 'Autumn in November';
+  src: url("autumn-in-november.eot");
+  src: url("autumn-in-november.ttf") format("truetype"); }
 
-.cong-and-margi {
+.bg-pink {
+  background-color: #fff0f2; }
+
+.bg-green {
+  background-color: #ceffce; }
+
+.cong-and-margi h1, .cong-and-margi h2, .cong-and-margi h3, .cong-and-margi h4, .cong-and-margi h5 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-#mainNav {
-  background-color: #fff;
-}
-.header {
-  position: relative;
-}
-.header-text {
+  text-align: center; }
+
+.cong-and-margi #mainNav {
+  background-color: #fff; }
+  .cong-and-margi #mainNav .navbar-nav {
+    margin: 0 auto; }
+    .cong-and-margi #mainNav .navbar-nav .nav-item {
+      margin: 0 10px; }
+      .cong-and-margi #mainNav .navbar-nav .nav-item .nav-link.active {
+        font-weight: 400; }
+
+.cong-and-margi .header .header-text {
   position: absolute;
-  top: 76px;
-  left: 20px;
-}
-.header-img {
+  width: 600px;
+  top: 86px;
+  left: calc(50vw - 300px);
+  color: #fff; }
+  .cong-and-margi .header .header-text h1 {
+    font-size: 64px; }
+  .cong-and-margi .header .header-text h3 {
+    color: #fff0f2; }
+
+.cong-and-margi .header .header-img {
   width: 100%;
   height: 100vh;
-  object-fit: cover;
-  object-position: 40% 50%;
-}
+  object-fit: cover; }
+
+.cong-and-margi #details {
+  padding: 0; }
+  .cong-and-margi #details > .row {
+    margin: 0; }
+  .cong-and-margi #details hr {
+    width: 50%;
+    border-top: dotted 1px #777; }
+  .cong-and-margi #details .content {
+    margin: 150px 0; }
+    .cong-and-margi #details .content .schedule .time {
+      text-align: right; }
+  .cong-and-margi #details .nestldown-img {
+    margin-left: -15px;
+    width: 100vw;
+    object-fit: cover; }
+
+.cong-and-margi #faq .q-and-a {
+  margin: 20px 0; }
+  .cong-and-margi #faq .q-and-a .question {
+    font-weight: bold; }
+
+@media (min-width: 768px) {
+  .cong-and-margi #details .nestldown-img {
+    width: 50vw;
+    height: 100%; } }
