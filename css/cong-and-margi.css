@@ -4,23 +4,33 @@
   src: url("autumn-in-november.ttf") format("truetype"); }
 
 .bg-pink {
-  background-color: #fff0f2; }
+  background-color: #ffeaeb; }
+
+.bg-pink-flower {
+  background-image: url(../img/pink-flower.png);
+  background-size: 500px 500px;
+  background-repeat: repeat; }
+
+.bg-green-leaf {
+  background-image: url(../img/leaf-wallpaper.png);
+  background-size: 600px 600px;
+  background-repeat: repeat; }
 
 .bg-green {
-  background-color: #ceffce; }
+  background-color: #d3ebd2; }
 
 .cong-and-margi h1, .cong-and-margi h2, .cong-and-margi h3, .cong-and-margi h4, .cong-and-margi h5 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   text-align: center; }
 
 .cong-and-margi #mainNav {
-  background-color: #fff; }
+  background-color: #fffafc;
+  box-shadow: 0 0 15px #333; }
   .cong-and-margi #mainNav .navbar-nav {
     margin: 0 auto; }
-    .cong-and-margi #mainNav .navbar-nav .nav-item {
-      margin: 0 10px; }
-      .cong-and-margi #mainNav .navbar-nav .nav-item .nav-link.active {
-        font-weight: 400; }
+    .cong-and-margi #mainNav .navbar-nav .nav-item .nav-link.active {
+      color: #dd8a8b;
+      font-weight: 400; }
 
 .cong-and-margi .header .header-text {
   position: absolute;
@@ -31,7 +41,7 @@
   .cong-and-margi .header .header-text h1 {
     font-size: 64px; }
   .cong-and-margi .header .header-text h3 {
-    color: #fff0f2; }
+    color: #ffeaeb; }
 
 .cong-and-margi .header .header-img {
   width: 100%;
@@ -60,6 +70,14 @@
     font-weight: bold; }
 
 @media (min-width: 768px) {
+  .cong-and-margi #mainNav {
+    padding-bottom: 0; }
+    .cong-and-margi #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 8px 16px; }
+      .cong-and-margi #mainNav .navbar-nav .nav-item .nav-link.active {
+        color: #dd8a8b;
+        font-weight: 400;
+        border-bottom: 6px solid #dd8a8b; }
   .cong-and-margi #details .nestldown-img {
     width: 50vw;
     height: 100%; } }
