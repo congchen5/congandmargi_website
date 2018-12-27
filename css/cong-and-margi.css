@@ -19,6 +19,9 @@
 .bg-green {
   background-color: #d9f4d9; }
 
+.text-align-center {
+  text-align: center; }
+
 .cong-and-margi {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
   .cong-and-margi h1, .cong-and-margi h2, .cong-and-margi h3, .cong-and-margi h4, .cong-and-margi h5 {
@@ -34,13 +37,14 @@
         font-weight: 400; }
   .cong-and-margi .header .header-text {
     position: absolute;
-    width: 600px;
+    width: 100vw;
+    text-align: center;
     top: 86px;
-    left: calc(50vw - 300px);
     color: #fff; }
     .cong-and-margi .header .header-text h1 {
-      font-size: 64px; }
+      font-size: 7vw; }
     .cong-and-margi .header .header-text h3 {
+      font-size: 3vw;
       font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       color: pink; }
   .cong-and-margi .header .header-img {
@@ -62,6 +66,13 @@
       margin-left: -15px;
       width: 100vw;
       object-fit: cover; }
+  .cong-and-margi #wedding-party .wedding-party-image {
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 12px;
+    overflow: hidden; }
   .cong-and-margi #faq .q-and-a {
     margin: 20px 0; }
     .cong-and-margi #faq .q-and-a .question {

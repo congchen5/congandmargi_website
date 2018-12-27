@@ -31,6 +31,10 @@ $light-green: #d9f4d9;
   background-color: $light-green;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 .cong-and-margi {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
@@ -54,14 +58,15 @@ $light-green: #d9f4d9;
   .header {
     .header-text {
       position: absolute;
-      width: 600px;
+      width: 100vw;
+      text-align: center;
       top: 86px;
-      left: calc(50vw - 300px);
       color: #fff;
       h1 {
-        font-size: 64px;
+        font-size: 7vw;
       }
       h3 {
+        font-size: 3vw;
         font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         color: pink;
       }
@@ -96,6 +101,16 @@ $light-green: #d9f4d9;
       margin-left: -15px;
       width: 100vw;
       object-fit: cover;
+    }
+  }
+  #wedding-party {
+    .wedding-party-image {
+      border-radius: 50%;
+      border: 4px solid white;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto 12px;
+      overflow: hidden;
     }
   }
   #faq {
