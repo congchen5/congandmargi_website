@@ -63,10 +63,10 @@ $light-green: #d9f4d9;
       top: 86px;
       color: #fff;
       h1 {
-        font-size: 7vw;
+        font-size: 72px;
       }
       h3 {
-        font-size: 3vw;
+        font-size: 36px;
         font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         color: pink;
       }
@@ -127,6 +127,22 @@ $light-green: #d9f4d9;
     }
   }
 }
+
+@media (max-width: 768px) {
+  .cong-and-margi {
+    .header {
+      .header-text {
+        h1 {
+          font-size: 36px;
+        }
+        h3 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
 
 @media (min-width: 768px) {
   .cong-and-margi {

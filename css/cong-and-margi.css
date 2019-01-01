@@ -42,9 +42,9 @@
     top: 86px;
     color: #fff; }
     .cong-and-margi .header .header-text h1 {
-      font-size: 7vw; }
+      font-size: 72px; }
     .cong-and-margi .header .header-text h3 {
-      font-size: 3vw;
+      font-size: 36px;
       font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       color: pink; }
   .cong-and-margi .header .header-img {
@@ -79,6 +79,12 @@
       font-weight: 800;
       font-size: 18px;
       color: #dd8a8b; }
+
+@media (max-width: 768px) {
+  .cong-and-margi .header .header-text h1 {
+    font-size: 36px; }
+  .cong-and-margi .header .header-text h3 {
+    font-size: 18px; } }
 
 @media (min-width: 768px) {
   .cong-and-margi #mainNav {
