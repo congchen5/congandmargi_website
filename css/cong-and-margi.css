@@ -51,6 +51,45 @@
     width: 100%;
     height: 100vh;
     object-fit: cover; }
+  .cong-and-margi #our-story .polaroid-timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto; }
+    .cong-and-margi #our-story .polaroid-timeline .polaroid-photo {
+      border-radius: 5px;
+      box-shadow: 5px 5px 30px #ddd;
+      background-color: white;
+      padding: 30px;
+      margin: 20px; }
+      .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-img {
+        position: relative;
+        width: 350px;
+        height: 350px;
+        margin-bottom: 15px; }
+        .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-img img {
+          width: 350px;
+          height: 350px; }
+        .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-img .polaroid-img-shadow {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          box-shadow: inset 0 0 10px 0 #aaa;
+          top: 0;
+          left: 0; }
+      .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-header {
+        font-family: 'Shadows Into Light', cursive;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 15px; }
+        .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-header .date {
+          font-style: italic; }
+      .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-caption {
+        width: 350px;
+        overflow: scroll;
+        height: 108px;
+        font-size: 12px; }
   .cong-and-margi #details {
     padding: 0; }
     .cong-and-margi #details > .row {
