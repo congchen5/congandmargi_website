@@ -78,14 +78,15 @@ $light-green: #d9f4d9;
     }
   }
 
-  $photo-size: 350px;
+  $photo-size: 250px;
   $polaroid-padding: 30px;
+  $polaroid-side-padding: 15px;
   $timeline-width: calc(#{$photo-size} + #{$polaroid-padding} + #{$polaroid-padding});
   #our-story {
     .polaroid-timeline {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      justify-content: space-around;
+      align-items: stretch;
       flex-wrap: wrap;
       margin: 0 auto;
 
@@ -93,14 +94,14 @@ $light-green: #d9f4d9;
         border-radius: 5px;
         box-shadow: 5px 5px 30px #ddd;
         background-color: white;
-        padding: $polaroid-padding;
-        margin: 20px;
+        padding: $polaroid-padding $polaroid-side-padding $polaroid-side-padding;
+        margin: 20px 12px;
 
         .polaroid-img {
           position: relative;
           width: $photo-size;
           height: $photo-size;
-          margin-bottom: 15px;
+          margin-bottom: 5px;
           img {
             width: $photo-size;
             height: $photo-size;
@@ -119,7 +120,7 @@ $light-green: #d9f4d9;
           font-family: 'Shadows Into Light', cursive;
           font-weight: bold;
           font-size: 24px;
-          margin-bottom: 15px;
+          margin-bottom: 5px;
           .date {
             font-style: italic;
           }
@@ -127,7 +128,6 @@ $light-green: #d9f4d9;
         .polaroid-caption {
           width: $photo-size;
           overflow: scroll;
-          height: 108px;
           font-size: 12px;
         }
       }
