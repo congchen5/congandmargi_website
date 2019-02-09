@@ -3,7 +3,8 @@
   "name": "Cong & Margi Wedding",
   "icons": [
     {
-      "src": "/images/",
+      "src": "/images/favicon.png",
+      "type": "image/png",
     },
   ],
 }
