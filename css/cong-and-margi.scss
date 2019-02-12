@@ -169,6 +169,18 @@ $light-green: #d9f4d9;
       overflow: hidden;
     }
   }
+  #photos {
+    .photo-gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .photo {
+        margin: 2px;
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
   #faq {
     .q-and-a {
       margin: 20px 0;

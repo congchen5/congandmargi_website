@@ -111,6 +111,14 @@
     height: 200px;
     margin: 0 auto 12px;
     overflow: hidden; }
+  .cong-and-margi #photos .photo-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .cong-and-margi #photos .photo-gallery .photo {
+      margin: 2px;
+      width: 150px;
+      height: 150px; }
   .cong-and-margi #faq .q-and-a {
     margin: 20px 0; }
     .cong-and-margi #faq .q-and-a .question {
