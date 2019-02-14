@@ -139,7 +139,6 @@
 
 @media (max-width: 768px) {
   .cong-and-margi .header .header-text h1 {
-<<<<<<< HEAD
     font-size: 44px; }
   .cong-and-margi .header .header-subtext h3 {
     font-size: 18px; }
@@ -149,11 +148,6 @@
     font-weight: bold; }
   .cong-and-margi #details .content .schedule .event {
     margin-bottom: 20px; } }
-=======
-    font-size: 40px; }
-  .cong-and-margi .header .header-subtext h3 {
-    font-size: 18px; } }
->>>>>>> 320f0ea1d361a0d79887c75a3641931a93bb5f2c
 
 @media (min-width: 768px) {
   .cong-and-margi #mainNav {
