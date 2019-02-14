@@ -90,7 +90,7 @@ $light-green: #d9f4d9;
     }
   }
 
-  $photo-size: 250px;
+  $photo-size: 275px;
   $polaroid-padding: 30px;
   $polaroid-side-padding: 15px;
   $timeline-width: calc(#{$photo-size} + #{$polaroid-padding} + #{$polaroid-padding});
@@ -213,10 +213,28 @@ $light-green: #d9f4d9;
     .header {
       .header-text {
         h1 {
-          font-size: 36px;
+          font-size: 44px;
         }
+      }
+      .header-subtext {
         h3 {
           font-size: 18px;
+        }
+      }
+    }
+
+    #details {
+      .content {
+        .schedule {
+          .time, .event {
+            text-align: center;
+          }
+          .time {
+            font-weight: bold;
+          }
+          .event {
+            margin-bottom: 20px;
+          }
         }
       }
     }

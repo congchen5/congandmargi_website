@@ -76,12 +76,12 @@
       margin: 20px 12px; }
       .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-img {
         position: relative;
-        width: 250px;
-        height: 250px;
+        width: 275px;
+        height: 275px;
         margin-bottom: 5px; }
         .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-img img {
-          width: 250px;
-          height: 250px; }
+          width: 275px;
+          height: 275px; }
         .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-img .polaroid-img-shadow {
           position: absolute;
           width: 100%;
@@ -97,7 +97,7 @@
         .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-header .date {
           font-style: italic; }
       .cong-and-margi #our-story .polaroid-timeline .polaroid-photo .polaroid-caption {
-        width: 250px;
+        width: 275px;
         overflow: scroll;
         font-size: 12px; }
   .cong-and-margi #details {
@@ -139,9 +139,15 @@
 
 @media (max-width: 768px) {
   .cong-and-margi .header .header-text h1 {
-    font-size: 36px; }
-  .cong-and-margi .header .header-text h3 {
-    font-size: 18px; } }
+    font-size: 44px; }
+  .cong-and-margi .header .header-subtext h3 {
+    font-size: 18px; }
+  .cong-and-margi #details .content .schedule .time, .cong-and-margi #details .content .schedule .event {
+    text-align: center; }
+  .cong-and-margi #details .content .schedule .time {
+    font-weight: bold; }
+  .cong-and-margi #details .content .schedule .event {
+    margin-bottom: 20px; } }
 
 @media (min-width: 768px) {
   .cong-and-margi #mainNav {
